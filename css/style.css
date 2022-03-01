@@ -1,0 +1,85 @@
+header {
+  background: #ccc url(../images/bg.jpg) no-repeat top/cover;
+  min-height: 100vh;
+}
+header a {
+  color: white;
+}
+.bg-basic {
+  background-color: #20c997bb;
+}
+.icon:hover {
+  background-color: #ff7a59;
+}
+.bg-red-pink {
+  background-color: #ff7a59;
+}
+
+img {
+  object-fit: cover;
+}
+.text-red-pink {
+  color: #ff7a59;
+}
+.w-80px {
+  width: 80px;
+}
+.third-section {
+  background: #ccc url(../images/process-bg.jpg) no-repeat center/cover;
+  min-height: 60vh;
+}
+.w-90 {
+  width: 90%;
+}
+
+.icon {
+  animation-delay: 250ms;
+}
+.content {
+  position: relative;
+  top: 30%;
+}
+
+.first {
+  background: #ccc url(../images/p-bg1.jpg) no-repeat top/cover;
+  min-height: 300px;
+}
+.second {
+  background: #ccc url(../images/p-bg2.jpg) no-repeat top/cover;
+  min-height: 300px;
+}
+.third {
+  background: #ccc url(../images/p-bg3.jpg) no-repeat top/cover;
+  min-height: 300px;
+}
+.forth {
+  background: #ccc url(../images/p-bg4.jpg) no-repeat top/cover;
+  min-height: 300px;
+}
+.w-65 {
+  width: 65%;
+}
+.side {
+  height: 100%;
+}
+.top-75 {
+  top: 75%;
+}
+footer {
+  min-height: 25vh;
+}
+.caro {
+  min-height: 30vh;
+}
+.gallery img {
+  max-height: 100%;
+  max-width: 100%;
+}
+@media screen and (max-width: 575px) {
+  .icons {
+    margin: 5vh;
+  }
+  header {
+    height: auto;
+  }
+}
